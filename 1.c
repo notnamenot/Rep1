@@ -1,4 +1,4 @@
-// Minimalne drzewo rozpinaj¹ce
+// Minimalne drzewocoœzmieni³am
 // Algorytm Kruskala
 // Data: 6.04.2014
 // (C)2014 mgr Jerzy Wa³aszek
@@ -61,4 +61,4 @@ type
       destructor  destroy;
       procedure   addEdge(e : Edge);
       procedure   print;
-  end;
+  
