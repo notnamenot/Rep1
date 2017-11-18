@@ -1,5 +1,6 @@
 program maxflow;
 
+
 // Definicja typu elementów listy
 //-------------------------------
 type
