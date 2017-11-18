@@ -1,6 +1,6 @@
 program eulercp;
 //2
-
+Ejejej to mój plik!
 // Typy dla dynamicznej tablicy list s¹siedztwa oraz stosu
 type
   PslistEl = ^slistEl;
