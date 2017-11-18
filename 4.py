@@ -5,6 +5,8 @@
 
 program prg;
 
+
+
 type
   Tbarray = array of boolean;
 
