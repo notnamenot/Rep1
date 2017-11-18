@@ -3,7 +3,7 @@
 // (C)2012 mgr Jerzy Wa³aszek
 //----------------------------
 
-program prg;
+program prgg;
 
 type
   Tbarray = array of boolean;
