@@ -1,4 +1,5 @@
-program pfcodes;
+﻿program pfcodes;
+
 
 // Definicja węzła drzewa kodu bezprzystankowego
 //----------------------------------------------
