@@ -1,3 +1,4 @@
+
 // Minimalne drzewocoœzmieni³am
 // Algorytm Kruskala
 =======
@@ -5,6 +6,9 @@
 // Algorytm Kruskala - bardzo mÄ…dry pan
 // Data: 6.04.2014
 // (C)2014 mgr Jerzy WaÂ³aszek
+
+
+
 //--------------------------------
 
 // Definicja obiektu kolejki priorytetowej
