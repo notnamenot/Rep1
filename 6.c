@@ -1,6 +1,8 @@
 change
 program sets;
 
+
+
 // Definicja struktury zbioru
 
 type
