@@ -1,6 +1,6 @@
 program eulercp;
 //2
-Ejejej to mój plik!
+//jestem ciekawy czy to zadziała z telefonu xd
 // Typy dla dynamicznej tablicy list s¹siedztwa oraz stosu
 type
   PslistEl = ^slistEl;
