@@ -4,6 +4,8 @@ achange
 
 program sets;
 
+
+
 // Definicja struktury zbioru
 
 type

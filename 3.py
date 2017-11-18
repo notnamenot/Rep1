@@ -5,6 +5,8 @@
 
 procedure DFSHamilton(v : integer);
 var
+
+
   i    : integer;
   test : boolean;
   p    : PslistEl;

@@ -2,8 +2,11 @@ program spojgraf;
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> br
 // Typy dla dynamicznej tablicy list s¹siedztwa oraz stosu
 type
   PslistEl = ^slistEl;

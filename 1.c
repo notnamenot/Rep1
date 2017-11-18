@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 
 // Minimalne drzewoco�zmieni�am
 
+=======
+// Minimalne drzewocoœzmieni³am
+>>>>>>> br
 // Algorytm Kruskala
 =======
-// Minimalne drzewo rozpinaj¹ce
-// Algorytm Kruskala - bardzo mądry pan
+// Minimalne drzewo rozpinajÂ¹ce
+// Algorytm Kruskala - bardzo mÄ…dry pan
 // Data: 6.04.2014
+<<<<<<< HEAD
 // (C)2014 mgr Jerzy Wa³aszek
 
 
@@ -16,12 +21,21 @@
 
 
 
+=======
+
+
+// (C)2014 mgr Jerzy WaÂ³aszek
+//--------------------------------
+
+  
+  
+>>>>>>> br
 // Definicja obiektu kolejki priorytetowej
 //----------------------------------------
 type
   Edge = record
-    v1,v2  : integer;             // Wierzcho³ki krawêdzi
-    weight : integer;             // Waga krawêdzi
+    v1,v2  : integer;             // WierzchoÂ³ki krawÃªdzi
+    weight : integer;             // Waga krawÃªdzi
   end;
 
   Queue = object
@@ -36,7 +50,7 @@ type
       procedure   pop;
   end;
 
-// Definicja obiektu struktury zbiorów roz³¹cznych
+// Definicja obiektu struktury zbiorÃ³w rozÂ³Â¹cznych
 //------------------------------------------------
   DSNode = record
     up   : integer;
@@ -54,7 +68,7 @@ type
       procedure   UnionSets(e : Edge);
   end;
 
-// Definicja obiektu minimalnego drzewa rozpinaj¹cego
+// Definicja obiektu minimalnego drzewa rozpinajÂ¹cego
 //---------------------------------------------------
   PTNode = ^TNode;
   TNode = record
@@ -65,9 +79,9 @@ type
 
   MSTree = object
     private
-      A : array of PTNode;        // Tablica list s¹siedztwa
-      Alen : integer;             // Liczba komórek w tablicy
-      weight : integer;           // Waga ca³ego drzewa
+      A : array of PTNode;        // Tablica list sÂ¹siedztwa
+      Alen : integer;             // Liczba komÃ³rek w tablicy
+      weight : integer;           // Waga caÂ³ego drzewa
     public
       constructor init(n : integer);
       destructor  destroy;

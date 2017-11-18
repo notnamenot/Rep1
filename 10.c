@@ -1,6 +1,10 @@
 Const MAXINT = 2147483647
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> br
 ' Definicja typu elementów listy
 '-------------------------------
 Type slistEl
