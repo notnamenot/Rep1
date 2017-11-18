@@ -1,6 +1,6 @@
 program eulercp;
 
-// Typy dla dynamicznej tablicy list s¹siedztwa oraz stosu
+// Typy dla dynamicznej tablicy list sÂ¹siedztwa oraz stosu
 type
   PslistEl = ^slistEl;
   slistEl =  record
@@ -8,13 +8,17 @@ type
     v     : integer;
   end;
 
+
+
+
+
 TList = array of PslistEl;
 
 // Definicja typu obiektowego stack
 //---------------------------------
 stack = object
   private
-    S : PslistEl;  // lista przechowuj¹ca stos
+    S : PslistEl;  // lista przechowujÂ¹ca stos
 
   public
     constructor init;
@@ -47,7 +51,7 @@ begin
   if S = nil then empty := true else empty := false;
 end;
 
-// Zwraca liczbê ze szczytu stosu
+// Zwraca liczbÃª ze szczytu stosu
 //----------------------------------
 function stack.top : integer;
 begin
