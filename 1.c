@@ -1,5 +1,6 @@
 
 // Minimalne drzewocoœzmieni³am
+
 // Algorytm Kruskala
 =======
 // Minimalne drzewo rozpinajÂ¹ce
