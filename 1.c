@@ -1,17 +1,20 @@
-<<<<<<< HEAD
 
 
 // Minimalne drzewoco�zmieni�am
 
 =======
 // Minimalne drzewocoœzmieni³am
->>>>>>> br
+
+=======
+//Minimalne drzewocoœzmieni³am
+
 // Algorytm Kruskala
 =======
+
 // Minimalne drzewo rozpinajÂ¹ce
 // Algorytm Kruskala - bardzo mÄ…dry pan
 // Data: 6.04.2014
-<<<<<<< HEAD
+
 // (C)2014 mgr Jerzy Wa³aszek
 
 
@@ -30,18 +33,23 @@
 
   
   
->>>>>>> br
+
 // Definicja obiektu kolejki priorytetowej
 //----------------------------------------
 type
   Edge = record
-    v1,v2  : integer;             // WierzchoÂ³ki krawÃªdzi
+
+  
+  
+  v1,v2  : integer;             // WierzchoÂ³ki krawÃªdzi
+  //
     weight : integer;             // Waga krawÃªdzi
   end;
 
   Queue = object
     private
-      Heap : array of Edge;
+      
+    	Heap : array of Edge;
       hpos : integer;
     public
       constructor init(n : integer);
@@ -88,8 +96,8 @@ type
       destructor  destroy;
       procedure   addEdge(e : Edge);
       procedure   print;
-<<<<<<< HEAD
+
   
 =======
   end;
->>>>>>> ea8b1691c1e97528676e8fb328fa50d18b4ec1ae
+
