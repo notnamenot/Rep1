@@ -1,6 +1,7 @@
 ﻿// Minimalne drzewocoœzmieni³am
 // Algorytm Kruskala
 =======
+
 // Minimalne drzewo rozpinajÂ¹ce
 // Algorytm Kruskala - bardzo mÄ…dry pan
 // Data: 6.04.2014
